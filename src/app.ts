@@ -4,16 +4,16 @@ import "./other-component";
 
 @customElement("my-app")
 export class App extends LitElement {
-    render() {
-        return html`
-            <p>Hello World</p>
-            <other-component></other-component>
-        `;
-    }
+  render() {
+    return html`
+      <p>Hello World</p>
+      <other-component></other-component>
+    `;
+  }
 }
 
 declare global {
-    interface HTMLElementTagNameMap {
-        "my-app": App;
-    }
+  interface HTMLElementTagNameMap {
+    "my-app": App;
+  }
 }
